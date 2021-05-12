@@ -1,8 +1,6 @@
 var fs = require('fs')
-function log(content){
-  fs.appendFile('./log/base.log')
-}
-console.log('loading system mods')
+function logit(content){fs.appendFile('./log/base.log', '['+Date()+']'+content+'\n', function (err) {if (err) console.error('ERR:'+err);});}
+logit('loading system mods')
 var gsh = require('./system/gsh.js')
-console.log('system loaded. begin graphical shell init')
+logit('system loaded. begin graphical shell init')
 gsh.startshell()
