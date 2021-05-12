@@ -1,3 +1,4 @@
 /user/*
 /temp/
+/log/
 *.tmp
