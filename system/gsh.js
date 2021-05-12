@@ -1,7 +1,10 @@
 var http=require('http')
+var fs=require('fs')
 exports.startshell=function(){
     http.createServer(function (req, res) {
-        res.writeHead(200, {'Content-Type': 'text/plain'})
-        res.end('<!DOCTYPE html>\n<html>\n<head>\n<title>NODE.OS-GRAPHICAL_SHELL</title>\n</head>\n<body>\n<canvas id="GUI"/>\n<script src="./system/hc.js"></script>\n</body>\n</html>')
-    }).listen(8080)
+        fs.readFile('./app/gsh/gui.html', function(err, data){
+            res.writeHead(200, {'Content-Type': 'text/html'})
+            res.write(data)
+            return res.end()
+    })}).listen(8080)
 }
