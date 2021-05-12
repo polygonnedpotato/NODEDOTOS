@@ -2,4 +2,6 @@
 /temp/
 /log/
 /.Trash-1000/
+/.vscode/
+/data/user/*
 *.tmp

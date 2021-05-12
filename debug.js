@@ -13,4 +13,7 @@ exports.deleteLogs=function(){
     fs.rmdir(logdir, { recursive: true }, (err) => {if (err) {throw err;}
         console.log('cleared log directory.');
     });
+    fs.mkdir(logdir, (err)=>{
+        if(err) return err;
+    });
 }

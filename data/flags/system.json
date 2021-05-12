@@ -1,0 +1,8 @@
+{
+    "OSNAME":"NODE.OS",
+    "FULLNAME":"Node.OS 0",
+    "AUTHOR":"Brendan Berger",
+    "VERSION":"0.0.0",
+    "SOURCE":"GIT",
+    "UPDATESOURCE":"https://github.com/polygonnedpotato/nodedotos/releases/latest/download/nightly.zip"
+}
