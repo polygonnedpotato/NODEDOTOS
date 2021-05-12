@@ -1,6 +1,4 @@
-var http = require('http');
-
-http.createServer(function (req, res) {
-  res.writeHead(200, {'Content-Type': 'text/plain'});
-  res.end('Hello World!');
-}).listen(8080);
+console.log('loading system mods.')
+var gsh = require('./system/gsh.js')
+console.log('system loaded. begin graphical shell init.')
+gsh.startshell()
