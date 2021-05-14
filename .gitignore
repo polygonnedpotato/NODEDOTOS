@@ -1,8 +1,12 @@
 /user/*
 /temp/
-/log/
+/log/*
+/node_modules/
 /.Trash-1000/
 /.vscode/
 /data/user/*
 *.tmp
+*.log
 *.*~
+package-lock.json
+package.json
