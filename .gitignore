@@ -5,6 +5,7 @@
 /.Trash-1000/
 /.vscode/
 /data/user/*
+/data/db/userdata.db
 *.tmp
 *.log
 *.*~
