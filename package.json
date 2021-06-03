@@ -1,0 +1,22 @@
+{
+  "name": "nodedotos",
+  "version": "0.0.0",
+  "description": "An Node.js-powered Operating System used with your browser.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/polygonnedpotato/NODEDOTOS.git"
+  },
+  "keywords": [
+    "nodedotos"
+  ],
+  "author": "Brendan Berger",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/polygonnedpotato/NODEDOTOS/issues"
+  },
+  "homepage": "https://github.com/polygonnedpotato/NODEDOTOS#readme"
+}

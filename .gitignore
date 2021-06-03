@@ -9,5 +9,5 @@
 *.tmp
 *.log
 *.*~
+.replit
 package-lock.json
-package.json

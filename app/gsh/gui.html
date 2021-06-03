@@ -3,11 +3,16 @@
 
 <head>
     <title>NODE.OS-GRAPHICAL_SHELL</title>
+    <script>
+      if(window.location.protocol=="https:"||window.location.protocol=="http:"&&localStorage.getItem("BypassHTTPRestriction")!=true){
+        httpFreeze()
+      }
+    </script>
 </head>
 
 <body>
-    <canvas id="GUI" />
-    <script src="./system/hc.js"></script>
+    <script src="../../system/wm.js"></script>
+    <script src="../../system/protec.js"></script>
 </body>
 
 </html>

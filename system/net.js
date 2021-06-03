@@ -1,6 +1,6 @@
 const https = require('https');
-
-https.get('https://jsonplaceholder.typicode.com/todos/1', (response) => {
+exports.httpsGET=function(link){
+https.get(link, (response) => {
   let todo = '';
 
   // called when a data chunk is received.
@@ -10,9 +10,9 @@ https.get('https://jsonplaceholder.typicode.com/todos/1', (response) => {
 
   // called when the complete response is received.
   response.on('end', () => {
-    console.log(JSON.parse(todo).title);
+    console.log(JSON.parse(todo));
   });
 
 }).on("error", (error) => {
   console.log("Error: " + error.message);
-});
+});}
