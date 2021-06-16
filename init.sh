@@ -1,1 +1,1 @@
-node index.js
+node index.js --inspect-port=localhost:7593
